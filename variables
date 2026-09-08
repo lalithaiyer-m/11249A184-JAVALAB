@@ -1,0 +1,13 @@
+public class VariablesDemo {
+    public static void main(String[] args) {
+        int age = 20;
+        String name = "Alice";
+        double marks = 89.5;
+        boolean passed = true;
+
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Marks: " + marks);
+        System.out.println("Passed: " + passed);
+    }
+}
