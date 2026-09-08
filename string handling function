@@ -1,0 +1,67 @@
+public class StringHandling {
+    public static void main(String[] args) {
+
+        String str = "Hello Java";
+        String str2 = "hello java";
+
+      
+        System.out.println("Length: " + str.length());
+
+        // 2. charAt.out.println("Character at index 1: " + str.charAt(1));
+
+        
+        System.out.println("Uppercase: " + str.toUpperCase());
+
+        
+        System.out.println("Lowercase: " + str.toLowerCase());
+
+        
+        System.out.println("Equals: " + str.equals(str2));
+
+       
+        System.out.println("Equals Ignore Case: "
+                + str.equalsIgnoreCase(str2));
+
+        System.out.println("Concat: " + str.concat(" Programming"));
+
+
+        System.out.println("Contains Java: " + str.contains("Java"));
+
+     
+        System.out.println("Starts with Hello: " + str.startsWith("Hello"));
+
+       
+        System.out.println("Ends with Java: " + str.endsWith("Java"));
+
+      
+        System.out.println("Index of Java: " + str.indexOf("Java"));
+
+        
+        System.out.println("Last index of a: " + str.lastIndexOf("a"));
+
+     
+        System.out.println("Substring: " + str.substring(6));
+
+        
+        System.out.println("Replace: " + str.replace("Java", "World"));
+
+         String text = "   Hello Java   ";
+        System.out.println("Trim: " + text.trim());
+
+
+        String empty = "";
+        System.out.println("Is Empty: " + empty.isEmpty());
+
+      
+        System.out.println("Compare: " + str.compareTo(str2));
+
+  
+        String words = "Java Python C++";
+        String[] result = words.split(" ");
+
+        System.out.println("Split:");
+        for (String word : result) {
+            System.out.println(word);
+        }
+    }
+}
